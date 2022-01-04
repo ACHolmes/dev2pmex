@@ -1,0 +1,44 @@
+*{
+    background-color: #eee;
+}
+.lat-table{
+    width: 50%;
+    position: absolute;
+    left:25%;
+    border-spacing: 0;
+    
+}
+td{
+    border: 1px solid BLACK;
+}
+#main-nav{
+    width: 100%;
+    background-color: azure;
+    height: 24px;
+}
+
+#nav-items{
+    background-color: inherit;
+    font-size: 24px;
+    border: 1px solid rgb(121, 120, 134);
+    height: 24px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-item{
+    display: inline;
+    float: left;
+}
+
+#main-nav > span {
+    background-color: inherit;
+    font-size: 24px;
+    display: inline-block;
+    margin: auto;
+    padding: 0px 5px;
+    border: 1px solid rgb(121, 120, 134);
+    height: 24px;
+    text-align: center;
+}
