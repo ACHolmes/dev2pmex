@@ -1,4 +1,4 @@
-*{
+body{
     background-color: #eee;
 }
 .lat-table{
@@ -28,7 +28,7 @@ td{
     height: 30px;
 }
 
-.nav-item{
+.nav-item{  
     display: inline;
     float: left;
     color: BLUE;
@@ -103,4 +103,66 @@ span#lat-desc > i{
 }
 #verb-table{
     top:68%;
+}
+#homepage-card{
+    height: 80vh;
+}
+#home-title{
+    text-align: center;
+}
+.centering{
+    text-align: center;
+}
+p{
+    font-size: 20px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: inherit;
+}
+.display-image{
+    max-width: 400px;
+    background-color: inherit;
+}
+.inherit{
+    background-color: inherit;
+}
+#viet-bridge{
+    max-width: 500px;
+    margin-left: ;
+}
+.flex1{
+    flex: 1;
+    align-items: center;
+    text-align: center;
+    background-color: inherit;
+}
+.home-p{
+    border-radius: 10px;
+    width: 80%;
+    margin: auto;
+}
+#home-p1{
+    background-color: aqua;
+    border: 2px solid #0c5a9b;
+}
+#home-p2{
+    background-color: darkorange;
+    border: 2px solid darkred;
+}
+#home-p3{
+    background-color:greenyellow;
+    border: 2px solid goldenrod;
+}
+#home-h2{
+    color: blue;
+    background-color: deepskyblue;
+    margin: auto;
+    width: 40%;
+    border: 2px solid bisque;
+    border-radius: 10px;
+    padding: 10px 5px;
+    box-sizing: border-box;
 }
